@@ -1,0 +1,15 @@
+.skeleton {
+	color: #8A8A8A;
+	padding: 10px;
+	text-align: center;
+}
+
+.skeleton>span {
+	font-size: 22px;
+	color: #d8d8d8;
+}
+
+.skeleton>p {
+	font-size: 20px;
+	padding-bottom: 10px;
+}

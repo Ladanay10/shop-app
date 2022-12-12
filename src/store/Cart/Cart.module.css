@@ -1,0 +1,59 @@
+.basket {
+	position: absolute;
+	right: 30px;
+	top: -40px;;
+	background-color: #000;
+	width: 400px;
+	text-align: center;
+	padding: 10px;
+	z-index: 100;
+}
+
+.title {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.items {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.cart_bottom {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+}
+
+.all_price {
+	padding-top: 5px;
+	color: #fff;
+}
+
+.all_price>span {
+	color: #DA00FE;
+}
+
+.btn {
+	color: #fff;
+	background: transparent;
+	border: 1px solid #fff;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	cursor: pointer;
+	padding: 5px;
+	justify-content: center;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.btn:hover {
+	transform: scale(0.9);
+	transition: 0.3s ease;
+	border: 1px solid #DA00FE;
+}
